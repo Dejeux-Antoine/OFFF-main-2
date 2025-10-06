@@ -2,9 +2,10 @@
 
 @font-face {
   font-family: 'Network Free Version';
-  src: url('https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/spacegrotesk/SpaceGrotesk-Bold.ttf') format('truetype');
-  font-weight: 700;
+  src: url('/fonts/NetworkFreeVersion.ttf') format('truetype');
+  font-weight: 100 900; /* Support pour tous les poids */
   font-style: normal;
+  font-display: swap;
 }
 
 @tailwind base;
